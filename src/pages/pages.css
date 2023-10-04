@@ -1,0 +1,369 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  box-shadow: 16px 19px 49px -9px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 16px 19px 49px -9px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 16px 19px 49px -9px rgba(0, 0, 0, 0.59);
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.form {
+  background-color: #15172b;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.cont {
+  background-color: #15172b;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.title {
+  color: #eee;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 20px;
+}
+
+.ic2 {
+  margin-top: 20px;
+}
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  background-color: #15172b;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: #ffffff;
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 18px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
+}
+
+.FormBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.div6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.div7 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.div8 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.div9 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.div10 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.div11 {
+  grid-area: 6 / 1 / 7 / 2;
+}
+.div12 {
+  grid-area: 6 / 2 / 7 / 3;
+}
+button {
+  padding: 15px;
+  background: #2196f3;
+  color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #0056b3;
+}
+.example {
+  margin-bottom: 50px;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #ccc;
+}
+
+.tip-up {
+  top: -25px; /* Same as body margin top + border */
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.dialogbox .body {
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  margin: 20px 10px;
+  padding: 5px;
+  background-color: #dadada;
+  border-radius: 3px;
+  border: 5px solid #ccc;
+}
+
+.body .message {
+  min-height: 30px;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #797979;
+}
+.mess .text {
+  text-align: left;
+  padding-left: 10px;
+}
+.mess .text h1 {
+  text-align: left;
+  padding-left: 10px;
+  color: white;
+}
+.mess {
+  margin-bottom: 50px;
+}
+p {
+  text-align: left;
+}
+
+.containerr {
+  width: 1000px;
+  height: 550px;
+  margin: 30px auto;
+  display: flex;
+  background: #15172b;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px gray, -5px -5px 7px gray;
+}
+.loginn {
+  width: 500px;
+}
+form {
+  width: 230px;
+  margin: 100px auto;
+}
+form h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+}
+.loginn p {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+}
+.containerr .loginn form label {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding: 8px;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px;
+  outline: none;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.button {
+  width: 230px;
+  margin: 8px;
+  padding: 8px;
+  background: purple;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 30px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+hr {
+  border-top: 2px solid purple;
+}
+.pic {
+  width: 75%;
+  background: violet;
+}
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,313 @@
+{
+  "student": [
+    {
+      "firstname": "Daud",
+      "lastname": "Irfan",
+      "email": "daudirfan2003@gmail.com",
+      "password": "hello",
+      "DOB": "28/2/2003",
+      "Age": "20",
+      "gender": "Male",
+      "phoneNO": "03124920349",
+      "Address": "Main Mir , lahore",
+      "RollNo": "1014",
+      "Fees": "10",
+      "status": "Paid",
+      "id": 1
+    },
+    {
+      "status": "Paid",
+      "firstname": "Ali",
+      "lastname": "Khan",
+      "email": "alikhan@example.com",
+      "password": "world",
+      "gender": "Male",
+      "DOB": "15/5/2002",
+      "Age": "21",
+      "phoneNO": "03121234567",
+      "Address": "DHA, Karachi",
+      "RollNo": "1015",
+      "Fees": "10",
+      "id": 2
+    },
+    {
+      "firstname": "Sarah",
+      "lastname": "Ahmed",
+      "email": "sarahahmed@example.com",
+      "password": "password",
+      "DOB": "10/10/2001",
+      "Age": "22",
+      "phoneNO": "03001234567",
+      "Address": " 123 sector 1,Gulberg, Lahore",
+      "RollNo": "1016",
+      "Fees": "10",
+      "status": "Not Paid",
+      "gender": "Female",
+      "id": 3
+    },
+    {
+      "firstname": "Zaheer",
+      "lastname": "Majeed",
+      "email": "zaheerm@example.com",
+      "password": "pass123",
+      "DOB": "5/3/2000",
+      "Age": "23",
+      "phoneNO": "03331234567",
+      "Address": "I-8, Islamabad",
+      "RollNo": "1017",
+      "gender": "Male",
+      "Fees": "10",
+      "status": "Not Paid",
+      "id": 4
+    },
+    {
+      "firstname": "jan",
+      "lastname": "Daud",
+      "email": "janedaud@gmail.com",
+      "password": "gggggg",
+      "DOB": "12/5",
+      "Age": "19",
+      "phoneNO": "031245",
+      "Address": "lahore",
+      "RollNo": "1019",
+      "Fees": "10",
+      "status": "Paid",
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "firstname": "Asim",
+      "lastname": "jan",
+      "email": "asim@gmail",
+      "password": "19",
+      "DOB": "20/22",
+      "Age": "55",
+      "phoneNO": "03124718569",
+      "Address": "lahore",
+      "RollNo": "1020",
+      "Fees": "10",
+      "gender": "Male",
+      "status": "Not Paid",
+      "id": 6
+    },
+    {
+      "status": "Not Paid",
+      "firstname": "jawad",
+      "lastname": "lal",
+      "email": "jawad@gmail",
+      "password": "123",
+      "DOB": "12/2003",
+      "gender": "Male",
+      "Age": "15",
+      "phoneNO": "0312",
+      "Address": "lahore",
+      "RollNo": "1021",
+      "Fees": "10",
+      "id": 7
+    },
+    {
+      "firstname": "Arsh",
+      "lastname": "man",
+      "email": "arsh",
+      "password": "arsh",
+      "DOB": "2023-09-01",
+      "Age": "55",
+      "phoneNO": "03124920349",
+      "Address": "House no. E#29, street no. 9 ,Main Mir Colony, Lahore",
+      "RollNo": "0955",
+      "Fees": "12000",
+      "gender": "Male",
+      "status": "Paid",
+      "id": 8
+    },
+    {
+      "firstname": "jane",
+      "lastname": "jan",
+      "email": "jane@gmail.com",
+      "password": "hell",
+      "DOB": "12/5",
+      "Age": "15",
+      "phoneNO": "03124920349",
+      "Address": "House no. E#29, street no. 9 ,Main Mir Colony, Lahore",
+      "RollNo": "0999",
+      "Fees": "5000",
+      "status": "Not Paid",
+      "gender": "Male",
+      "id": 9
+    },
+    {
+      "firstname": "janshah",
+      "lastname": "khan",
+      "email": "janeShah@gmail.com",
+      "password": "456",
+      "DOB": "2012-01-02",
+      "Age": "18",
+      "phoneNO": "031245",
+      "Address": "lah",
+      "RollNo": "0988",
+      "Fees": "20000",
+      "status": "Not Paid",
+      "gender": "Male",
+      "id": 10
+    },
+    {
+      "firstname": "Asim GG",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "DOB": "",
+      "Age": "",
+      "phoneNO": "",
+      "Address": "",
+      "RollNo": "",
+      "Fees": 0,
+      "status": "Not Paid",
+      "gender": "",
+      "id": 11
+    },
+    {
+      "firstname": "Daud",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "DOB": "",
+      "Age": "",
+      "phoneNO": "",
+      "Address": "",
+      "RollNo": "",
+      "Fees": 0,
+      "status": "Not Paid",
+      "gender": "Male",
+      "id": 12
+    }
+  ],
+  "teacher": [
+    {
+      "firstname": "Irfan",
+      "lastname": "Mushtaq",
+      "email": "irfanmushtaq@gmail.com",
+      "password": "mushtaq",
+      "DOB": "15/1/1967",
+      "Age": "48",
+      "phoneNO": "03124541742",
+      "Address": "Main Mir , lahore",
+      "qualification": "Bscs",
+      "salary": "10",
+      "status": "Not Paid",
+      "id": 1
+    },
+    {
+      "status": "Paid",
+      "firstname": "Ayesha",
+      "lastname": "Malik",
+      "email": "ayesha.malik@example.com",
+      "password": "teacher",
+      "DOB": "5/4/1975",
+      "Age": "48",
+      "phoneNO": "03124511111",
+      "Address": "DHA, Karachi",
+      "qualification": "MPhil",
+      "salary": "10",
+      "id": 2
+    },
+    {
+      "status": "Not Paid",
+      "firstname": "Tariq",
+      "lastname": "Jameel",
+      "email": "tariq.j@example.com",
+      "password": "prof123",
+      "DOB": "20/2/1970",
+      "Age": "53",
+      "phoneNO": "03127777777",
+      "Address": "F-10, Islamabad",
+      "qualification": "PhD",
+      "salary": "10",
+      "id": 3
+    },
+    {
+      "status": "Paid",
+      "firstname": "Sameena",
+      "lastname": "Khalid",
+      "email": "sameena.k@example.com",
+      "password": "teach789",
+      "DOB": "10/11/1980",
+      "Age": "43",
+      "phoneNO": "03001222222",
+      "Address": "Model Town, Lahore",
+      "qualification": "Masters",
+      "salary": "10",
+      "id": 4
+    },
+    {
+      "status": "Paid",
+      "firstname": "Daud",
+      "lastname": "Irfan",
+      "email": "daudirfan2003@gmail.com",
+      "password": "gggggg",
+      "DOB": "12/2003",
+      "Age": "55",
+      "phoneNO": "0312",
+      "Address": "House no. E#29, street no. 9 ,Main Mir Colony, Lahore",
+      "qualification": "Bscs",
+      "salary": "1000",
+      "id": 5
+    },
+    {
+      "firstname": "usman",
+      "lastname": "khan",
+      "email": "usman@gmail.com",
+      "password": "12345",
+      "DOB": "2032-01-28",
+      "Age": "19",
+      "phoneNO": "03212",
+      "Address": "lah",
+      "qualification": "bscs",
+      "salary": "120",
+      "status": "Not Paid",
+      "gender": "man",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "Daud",
+      "comments": "Best of luck"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "comments": "Great work!"
+    },
+    {
+      "id": 3,
+      "name": "Jane",
+      "comments": "Keep it up!"
+    },
+    {
+      "id": 4,
+      "name": "LongCommenter",
+      "comments": "Throughout my journey in this platform, I've come across numerous insightful comments, articles, and pieces of advice. But, what stands out most to me is the unwavering spirit of the community here. The commitment to share, learn, and grow is unparalleled. I'm immensely grateful to be a part of this ecosystem, and I look forward to contributing further, learning from the myriad of perspectives presented, and embracing the ethos of continuous growth and collaboration. Thank you to everyone who's been a part of my journey here."
+    },
+    {
+      "name": "Daud Irfan",
+      "comments": "very best app I've never seen before ",
+      "id": 5
+    },
+    {
+      "name": "jawad lal",
+      "comments": "change my phone number\n",
+      "id": 6
+    },
+    {
+      "name": "Daud Irfan",
+      "comments": "very good school app",
+      "id": 7
+    },
+    {
+      "name": "Irfan Mushtaq",
+      "comments": "plz increase my salary ",
+      "id": 8
+    }
+  ]
+}
