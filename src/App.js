@@ -22,9 +22,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route element={<PublicRoutesUser />}>
+       
           <Route path="/" element={<Userlogin />} />
-        </Route>
+        
         <Route element={<PublicRoutes />}>
           <Route path="/Admin" element={<LoginPage />} />
         </Route>
